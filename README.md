@@ -1,6 +1,6 @@
 # Github-Project-Initialization-Automation
 
-## Pre-requisites:
+## Process:
 - Install Python
 - Download PyGithub Package for Python
 - Generate Github Token(which has repo read/write access) or use login_id and password to login.
