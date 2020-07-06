@@ -7,10 +7,11 @@
   (This project uses the token method)
 - Search `Edit the system environment variables` in windows menu and set environment variable for **Github Token** as `GithubToken` and **directory** where you create projects as     `MainProjectPath`. (Use frontslash while writing directory path instead of backslash)
 - Download both the files from this repository and paste it in `C:\Windows\System32`.
+---
 - Now, you can create repository on **Github** (with readme and initial commit) as well as **local folder** (of the same name with git initialized in the directory stated in the     MainProjectPath).
-- Command for creating only **local folder**:
+- Command for creating only **local folder**: \
   `create <foldername>`
-- Command for creating **Github Repo** as well as **local folder**:
+- Command for creating **Github Repo** as well as **local folder**: \
   `create <foldername> g`
-- For help with this command in cmd, use:
+- For help with this command in cmd, use: \
   `create --help`
