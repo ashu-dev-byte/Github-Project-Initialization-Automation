@@ -4,8 +4,7 @@ setlocal enabledelayedexpansion
 set folder_name=%1
 set flag=%2
 set status=%3
-set dir=C:/Users/ASHUTOSH/Documents/
-set new_dir=%dir%%folder_name% 
+set dir=C:/Users/ASHUTOSH/Documents/%folder_name%
 cd /d %~dp0
 
 set cmd[0]=create folder_name          :    Use this format to create folder locally alongwith public repo on Github
@@ -33,6 +32,6 @@ if "%1"=="" (
         )
     ) else (
     python automate.py %folder_name% %flag% %status%
-    cd /d %new_dir%
+    cd /d %dir%
     ) 
 )   
