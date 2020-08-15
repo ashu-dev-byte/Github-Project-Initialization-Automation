@@ -33,5 +33,6 @@ if "%1"=="" (
     ) else (
     python automate.py %folder_name% %flag% %status%
     cd /d %dir%
+    echo %dir%
     ) 
 )   
